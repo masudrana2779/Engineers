@@ -1,0 +1,97 @@
+
+
+.footer {
+    background: #000022;
+    padding: 225px 0 20px;
+}
+
+.footer_top {
+    border-bottom: 1px solid #3d4362;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+.footer_single_item {
+    .footer_logo{
+        margin-bottom: 75px;
+        a {
+            display: inline-block;
+            img {
+                
+            }
+        }
+    }
+    .footer_title {
+        color: #fff;
+        font: 700 18px/24px $psb;
+        margin-bottom: 20px;
+    }
+    .social {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li {
+            display: inline-block;
+            margin-right: 30px;
+            a {
+                display: inline-block;
+                text-decoration: none;
+                transition: all 0.5s;
+                filter: grayscale(100%);
+                &:hover {
+                    filter: grayscale(0);
+                }
+                img {
+                    
+                }
+            }
+        }
+    }
+    .contact_link {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li {
+            a {
+                display: inline-block;
+                color: #8c8f9e;
+                font: 400 16px/30px $psr;
+                transition: all 0.5s;
+                &:hover {
+                    color: #3c93d2;
+                    padding-left: 3px;
+                }
+            }
+        }
+    }
+}
+
+.footer_bottom {
+    .footer_bottom_inner {
+        .copy_right_text {
+            color: #d7ddf9;
+            font: 400 14px/30px $psr;
+            float: left;
+        }
+        .footer_bottom_menu {
+            text-align: right;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            float: right;
+            li {
+                display: inline-block;
+                margin-left: 20px;
+                a {
+                    display: inline-block;
+                    color: #d7ddf9;
+                    font: 400 14px/30px $psr;
+                    transition: all 0.5s;
+                    &:hover {
+                        color: #3c93d2;
+                    }
+                }
+            }
+        }
+    }
+}

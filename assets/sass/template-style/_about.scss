@@ -1,0 +1,53 @@
+.about_wrap {
+    padding: 120px 0;
+    position: relative;
+    overflow: hidden;
+    
+    .gear_icon {
+        position: absolute;
+        top: -205px;
+        right: -250px;
+    }
+    
+    .about_content {
+        max-width: 575px;
+        padding-top: 55px;
+        .about_sub_title {
+            color: $brand-color;
+            font: 400 24px/30px $psr;
+        }
+        .about_title {
+            color: #222222;
+            font: 700 36px/40px $psb;
+            margin-bottom: 25px;
+        }
+        .about_para {
+            color: $dark;
+            font: 400 18px/30px $psr;
+            margin-bottom: 20px;
+        }
+    }
+    .about_img_wrap {
+        .about_img {
+            position: relative;
+            
+            .img_1 {
+                width: 100%;
+                -webkit-box-shadow: 7.765px 28.978px 58.9px 3.1px rgba(0, 0, 0, 0.1);
+                box-shadow: 7.765px 28.978px 58.9px 3.1px rgba(0, 0, 0, 0.1);
+            }
+            
+            .shap_1 {
+                position: absolute;
+                bottom: -4px;
+                left: -47px;
+            }
+            
+            .shap_2 {
+                position: absolute;
+                top: 30px;
+                right: -40px;
+            }
+        }
+    }
+}
